@@ -66,8 +66,8 @@ score={
   updateScoreELE();
     localStorage.setItem('score',JSON.stringify(score));
     document.querySelector('.js-result').innerHTML=`${result}`;
-    document.querySelector('.js-move').innerHTML=`you <img src="jsIntroPro/${playerMove}-emoji.png" class="icon">
- computer <img src="jsIntroPro/${computerMove}-emoji.png" class="icon">`;
+    document.querySelector('.js-move').innerHTML=`you <img src="${playerMove}-emoji.png" class="icon">
+ computer <img src="${computerMove}-emoji.png" class="icon">`;
 
     }
  let isAutoPlaying=false;
